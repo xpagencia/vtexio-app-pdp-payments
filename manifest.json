@@ -1,7 +1,7 @@
 {
   "vendor": "dalcosta",
   "name": "pdp-another-payments",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "Modal de formas de pagamento para PDP",
   "description": "Exibe as formas de pagamento na tela de produtos. Filtrando por Seller/Sku",
   "builders": {
