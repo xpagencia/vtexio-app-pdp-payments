@@ -1,0 +1,29 @@
+{
+  "vendor": "dalcosta",
+  "name": "pdp-another-payments",
+  "version": "0.0.1",
+  "title": "Modal de formas de pagamento para PDP",
+  "description": "Exibe as formas de pagamento na tela de produtos. Filtrando por Seller/Sku",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "docs": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "1.x",
+    "vtex.product-context": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.list-context": "0.x",
+    "vtex.device-detector": "0.x",
+    "vtex.store-image": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
